@@ -16,5 +16,5 @@ class TestBasics(unittest.TestCase):
         result = rpn.calculate("6 3 /")
         self.assertEqual(2, result)
 
-if __name__ == '__main__':
-    main()
+if __name__ == "__main__":
+    unittest.main()
